@@ -19,7 +19,7 @@ header {
 }
 
 .logo h1 {
-  font-size: 2rem;
+  font-size: 1.5rem; /* Make logo smaller */
   color: #fff;
 }
 
@@ -33,6 +33,7 @@ header {
 
 .hero h1 {
   font-size: 3rem;
+  text-transform: uppercase; /* Make title uppercase */
 }
 
 #work {
@@ -44,14 +45,13 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px; /* Space between grid items */
-  margin-top: 1.5rem;
+  margin: 0 auto; /* Center the grid */
+  max-width: 1200px; /* Limit the maximum width */
+  padding: 0 20px; /* Add padding to the sides */
 }
 
 .project {
-  background: #222; /* Dark background for project cards */
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: left;
+  text-align: center; /* Center text */
 }
 
 .project img {
@@ -61,9 +61,4 @@ header {
 
 .project h3 {
   margin-top: 10px;
-}
-
-.project a {
-  color: #FF6200; /* Link color */
-  text-decoration: none;
 }
