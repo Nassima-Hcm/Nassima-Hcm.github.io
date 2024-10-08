@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(145deg, #FF6200, #D90000);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: #FF6200;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #D90000;
+}
+
+#about, #projects {
+  padding: 2rem;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+.project {
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.project a {
+  color: #FF6200;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #111;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #FF6200;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
