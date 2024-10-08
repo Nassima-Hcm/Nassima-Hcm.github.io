@@ -14,7 +14,7 @@ body {
 header {
   display: flex;
   justify-content: flex-start; /* Align items to the left */
-  padding: 20px;
+  padding: 30px;
   width: 100%; /* Ensure header takes full width */
 }
 
