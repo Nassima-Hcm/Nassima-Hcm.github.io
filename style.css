@@ -14,13 +14,12 @@ body {
 header {
   display: flex;
   justify-content: flex-start; /* Align items to the left */
-  align-items: center;
   padding: 20px;
   width: 100%; /* Ensure header takes full width */
 }
 
 .logo h1 {
-  font-size: 1rem;
+  font-size: 2rem;
   color: #fff;
 }
 
@@ -28,9 +27,8 @@ header {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: center; /* Centering content vertically */
+  text-align: center; /* Center text in the hero section */
 }
 
 .hero h1 {
@@ -50,7 +48,7 @@ header {
 }
 
 .project {
-  background: #000; /* Dark background for project cards */
+  background: #222; /* Dark background for project cards */
   padding: 1rem;
   border-radius: 8px;
   text-align: left;
@@ -66,6 +64,6 @@ header {
 }
 
 .project a {
-  color: #fff; /* Link color */
+  color: #FF6200; /* Link color */
   text-decoration: none;
 }
