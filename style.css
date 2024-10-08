@@ -62,3 +62,16 @@ header {
 .project h3 {
   margin-top: 10px;
 }
+
+.project a {
+  color: #fff; /* Set link color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+.project a:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+footer {
+  height: 50px; /* Set height for the footer */
+}
