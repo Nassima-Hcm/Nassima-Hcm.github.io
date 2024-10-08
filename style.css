@@ -13,10 +13,11 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
-  align-items: left;
+  justify-content: flex-start; /* Change from center to flex-start */
+  align-items: center;
   padding: 20px;
 }
+
 
 .logo h1 {
   font-size: 1rem;
