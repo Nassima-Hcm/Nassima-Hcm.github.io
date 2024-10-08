@@ -25,6 +25,7 @@ header {
 
 .logo img {
   width: 150px; /* Adjust logo size */
+  background-color: transparent;
 }
 
 .hero {
