@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #000; /* All black background */
+  background-color: #000; /* Entire background is black */
   color: #fff;
   line-height: 1.6;
 }
@@ -16,7 +16,6 @@ header {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #000;
 }
 
 .logo h1 {
@@ -45,12 +44,12 @@ header {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px;
+  gap: 20px; /* Space between grid items */
   margin-top: 1.5rem;
 }
 
 .project {
-  background: #222;
+  background: #222; /* Dark background for project cards */
   padding: 1rem;
   border-radius: 8px;
   text-align: left;
