@@ -77,24 +77,21 @@ h1 {
 
 /* Adjust the number styling */
 .project-number {
-  font-size: 3rem; /* Same size as "01", "02" in the example */
-  font-family: 'Helvetica Neue', sans-serif; /* Use a thin, clean font */
+  font-size: 3rem; 
+  font-family: 'Helvetica Neue', sans-serif; 
   font-weight: 300; /* Thin font weight */
   margin-bottom: 20px; /* Space between the number and image */
 }
 
-/* Title (bold, but not too big) */
 .project-title {
-  font-size: 1.25rem; /* Adjusted size to match the example */
-  font-weight: bold; /* Bold text */
+  font-size: 1.25rem; 
+  font-weight: bold; 
   margin-bottom: 10px; /* Space between title and description */
 }
 
-/* Description (lighter font) */
 .project-description {
   font-size: 1rem; /* Smaller font size */
   font-weight: 300; /* Light font weight */
-  color: #d3d3d3; /* Light grey color */
 }
 
 
