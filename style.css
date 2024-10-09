@@ -24,7 +24,7 @@ header {
 
 .logo img {
   width: 200px; /* Adjust logo size */
-  margin-left: 150px;
+  margin-left: 120px;
   background-color: transparent;
 }
 
@@ -35,7 +35,7 @@ header {
 h1 {
     font-size: 3rem; /* Adjust size of text */
     text-transform: uppercase;
-    margin-top: -50px; /* Moves the text 50px higher */
+    margin-top: -10px; /* Moves the text 50px higher */
     text-align: center; /* Center the title */
     color: white;
 }
