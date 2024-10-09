@@ -18,7 +18,7 @@ header {
 /* For the logo */
 .logo img {
     width: 150px; /* Adjust the logo size if necessary */
-    margin-left: 20px; /* Moves the logo 20px to the right */
+    margin-left: 100px; /* Moves the logo 20px to the right */
 }
 
 /* For the hero section */
