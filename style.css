@@ -73,8 +73,8 @@ h1 {
 
 /* Adjust the number styling */
 .project-number {
-  font-size: 3rem; 
-  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 5rem; 
+  font-family: sans-serif; 
   font-weight: 300; /* Thin font weight */
   margin-bottom: 20px; /* Space between the number and image */
 }
