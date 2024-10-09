@@ -6,15 +6,10 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* Apply font family */
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: contain; /* Ensures the whole image fits within the viewport */
-    background-position: top center; /* Ensures the top of the image is visible */
-    background-color: #000; /* Fallback color for browsers that can't display images */
-    color: #fff;
-    line-height: 1.6;
+    background: url('background.jpg') no-repeat center center fixed; /* Center the background */
+    background-size: cover; /* Ensure the background covers the entire page */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
-
-
 
 header {
     padding: 20px; /* Add padding for header */
@@ -28,8 +23,11 @@ header {
 
 /* For the hero section */
 .hero {
-    height: auto; /* Adjust to fit content */
-    padding-top: 50px; /* Space from the top */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Add padding for spacing */
     margin-bottom: 20px; /* Space below the hero */
 }
 
@@ -98,3 +96,4 @@ h1 {
 footer {
     height: 400px; /* Height of the footer for spacing */
 }
+
