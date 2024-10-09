@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   background: url('background.jpg') no-repeat center center fixed; /* Fix background */
   background-size: cover; /* Ensures the image covers the full width and height */
   background-position: top center; /* Keeps the top part of the image visible */
@@ -29,13 +29,14 @@ header {
 }
 
 .hero {
-  height: 100vh;
+  height: auto; /* Adjust to fit content */
+  padding-top: 50px; /* Space from the top */
 }
 
 h1 {
     font-size: 3rem; /* Adjust size of text */
     text-transform: uppercase;
-    margin-top: 300px; 
+    margin-top: 20px; 
     text-align: center; /* Center the title */
     color: white;
 }
@@ -50,7 +51,7 @@ h1 {
     text-align: left; /* Align left */
     position: absolute; /* Position it absolutely */
     left: 20px; /* Distance from the left side */
-    top: 200px; /* Distance from the top - adjust this value */
+    top: 40px; /* Distance from the top - adjust this value */
 }
 
 .project-grid {
@@ -74,15 +75,15 @@ h1 {
 
 /* Adjust the number styling */
 .project-number {
-  font-size: 3rem; 
-  font-family: sans-serif; 
-  font-weight: 200; /* Thin font weight */
+  font-size: 2rem; 
+  font-family: Roboto; 
+  font-weight: 100; /* Thin font weight */
   margin-bottom: 30px; /* Space between the number and image */
 }
 
 .project-title {
   font-size: 1.25rem; 
-  font-weight: bold; 
+  font-weight: 400;
   margin-bottom: 10px; /* Space between title and description */
 }
 
@@ -90,7 +91,6 @@ h1 {
   font-size: 1rem; /* Smaller font size */
   font-weight: 300; /* Light font weight */
 }
-
 
 footer {
   height: 400px; /* Increase footer height */
