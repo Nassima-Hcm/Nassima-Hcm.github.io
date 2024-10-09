@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background: url('background.png') no-repeat center center fixed; /* Fix background */
+  background: url('background.jpg') no-repeat center center fixed; /* Fix background */
   background-size: cover; /* Ensures the image covers the full width and height */
   background-position: top center; /* Keeps the top part of the image visible */
   background-color: #000; /* Fallback color for browsers that can't display images */
