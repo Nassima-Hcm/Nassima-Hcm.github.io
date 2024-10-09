@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Roboto', sans-serif; 
-    background: url('background.jpg') no-repeat top center center fixed; 
-    background-size: contain; 
-    overflow-x: hidden;
+    background: url('background.jpg') no-repeat top center; 
+    background-size: cover;
+    overflow-x: hidden; 
 }
 
 header {
@@ -38,18 +38,16 @@ h1 {
     color: white;
 }
 
-
 .projects-title {
     color: white;
     font-family: 'Roboto', sans-serif; 
-    font-size: 2rem; /* Make it bigger */
+    font-size: 2rem; 
     position: absolute; 
-    text-align: left; /* Align left */
-    margin: 20px 0; /* Add margin for spacing */
-    left: 30px; /* Adjusted position */
-    top: 20px; /* Adjusted position */
+    text-align: left; 
+    margin: 20px; 
+    left: 30px; 
+    top: 100px;
 }
-
 
 /* Project grid styling */
 .project-grid {
