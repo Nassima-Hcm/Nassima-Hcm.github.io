@@ -42,11 +42,11 @@ h1 {
     color: white;
     font-family: 'Roboto', sans-serif; 
     font-size: 2rem; 
-    position: absolute; 
+    position: relative; 
     text-align: left; 
     margin: 20px; 
-    left: 30px; 
-    top: 100px;
+    left: 130px; 
+    margin-top: 50px;
 }
 
 /* Project grid styling */
