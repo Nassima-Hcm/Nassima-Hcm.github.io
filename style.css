@@ -1,4 +1,8 @@
 * {
+body {
+font-family: 'Roboto', sans-serif; 
+background: url('background.jpg') no-repeat ;
+}
 
 .hero {
 height: auto; /* Adjust to fit content */
