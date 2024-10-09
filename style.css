@@ -9,6 +9,8 @@ body {
     background: url('background.jpg') no-repeat top center; 
     background-size: cover;
     overflow-x: hidden; 
+    margin: 0; /* Reset body margins */
+    padding: 0;
 }
 
 header {
@@ -45,9 +47,11 @@ h1 {
     font-size: 2rem; 
     position: relative; 
     text-align: left; 
-    margin: 20px; 
-    left: 230px; 
+    margin: 30px; 
+    left: 240px; 
     margin-top: 50px;
+    border-bottom: 1px solid white; /* Thin line under the title */
+    padding-bottom: 10px; /* Space between the title and the line */
 }
 
 /* Project grid styling */
@@ -56,9 +60,9 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
     gap: 20px; /* Space between grid items */
     margin: 0 auto;
-    max-width: 1200px; /* Max width for the grid */
     padding: 0 20px;
 }
+
 
 /* Project styling */
 .project {
@@ -86,6 +90,7 @@ h1 {
     margin-bottom: 10px; /* Space between title and description */
     color: white; /* Changed to white */
 }
+
 
 .project-description {
     font-size: 1rem; /* Smaller font size */
