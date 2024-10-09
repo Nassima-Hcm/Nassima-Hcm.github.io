@@ -35,7 +35,7 @@ header {
 h1 {
     font-size: 3rem; /* Adjust size of text */
     text-transform: uppercase;
-    margin-top: 100px; 
+    margin-top: 300px; 
     text-align: center; /* Center the title */
     color: white;
 }
@@ -73,10 +73,10 @@ h1 {
 
 /* Adjust the number styling */
 .project-number {
-  font-size: 5rem; 
+  font-size: 3rem; 
   font-family: sans-serif; 
-  font-weight: 300; /* Thin font weight */
-  margin-bottom: 20px; /* Space between the number and image */
+  font-weight: 200; /* Thin font weight */
+  margin-bottom: 30px; /* Space between the number and image */
 }
 
 .project-title {
