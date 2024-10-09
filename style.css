@@ -24,8 +24,8 @@ header {
 }
 
 .logo img {
-  width: 250px; /* Adjust logo size */
-  margin-left: 20px;
+  width: 200px; /* Adjust logo size */
+  margin-left: 50px;
   background-color: transparent;
 }
 
@@ -39,7 +39,7 @@ header {
 
 .hero h1 {
   font-size: 3rem;
-  margin-top: -50px;
+  margin-top: 50px;
   text-transform: uppercase;
 }
 
