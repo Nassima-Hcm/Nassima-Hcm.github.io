@@ -1,97 +1,88 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Roboto', Arial, sans-serif;
-  background: url('background.jpg') no-repeat center center fixed; /* Fix background */
-  background-size: cover; /* Ensures the image covers the full width and height */
-  background-position: top center; /* Keeps the top part of the image visible */
-  background-color: #000; /* Fallback color for browsers that can't display images */
-  color: #fff;
-  line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Apply font family */
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background covers the entire page */
 }
-
 
 header {
-  display: flex;
-  justify-content: flex-start; /* Align logo to the left */
-  padding: 20px;
-  width: 100%;
+    padding: 20px; /* Add padding for header */
 }
 
+/* For the logo */
 .logo img {
-  width: 200px; /* Adjust logo size */
-  margin-left: 115px;
-  background-color: transparent;
+    width: 150px; /* Adjust the logo size if necessary */
+    margin-left: 20px; /* Moves the logo 20px to the right */
 }
 
+/* For the hero section */
 .hero {
-  height: auto; /* Adjust to fit content */
-  padding-top: 50px; /* Space from the top */
+    height: auto; /* Adjust to fit content */
+    padding-top: 50px; /* Space from the top */
 }
 
 h1 {
     font-size: 3rem; /* Adjust size of text */
     text-transform: uppercase;
-    margin-top: 20px; 
     text-align: center; /* Center the title */
     color: white;
 }
 
-#work {
-  padding: 2rem;
-  text-align: center;
-}
-
+/* Projects title */
 .projects-title {
     font-size: 2rem; /* Make it bigger */
     text-align: left; /* Align left */
-    position: absolute; /* Position it absolutely */
-    left: 20px; /* Distance from the left side */
-    top: 40px; /* Distance from the top - adjust this value */
+    position: relative; /* Change to relative positioning */
+    margin: 20px 0; /* Add margin for spacing */
+    color: rgba(255, 255, 255, 0.8); /* White color with some transparency */
 }
 
+/* Project grid styling */
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* Space between grid items */
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    margin: 0 auto;
+    max-width: 1200px; /* Max width for the grid */
+    padding: 0 20px;
 }
 
+/* Project styling */
 .project {
-  position: relative;
+    position: relative;
 }
 
 .project img {
-  width: 100%;
-  height: 400px; /* Set a fixed height for uniformity */
-  object-fit: cover;
+    width: 100%;
+    height: 300px; /* Set a fixed height for uniformity */
+    object-fit: cover;
 }
 
 /* Adjust the number styling */
 .project-number {
-  font-size: 2rem; 
-  font-family: Roboto; 
-  font-weight: 100; /* Thin font weight */
-  margin-bottom: 30px; /* Space between the number and image */
+    font-size: 2rem; 
+    font-family: Roboto; 
+    font-weight: 100; /* Thin font weight */
+    margin-bottom: 30px; /* Space between the number and image */
 }
 
 .project-title {
-  font-size: 1.25rem; 
-  font-weight: 400;
-  margin-bottom: 10px; /* Space between title and description */
+    font-size: 1.25rem; 
+    font-weight: 400;
+    margin-bottom: 10px; /* Space between title and description */
 }
 
 .project-description {
-  font-size: 1rem; /* Smaller font size */
-  font-weight: 300; /* Light font weight */
+    font-size: 1rem; /* Smaller font size */
+    font-weight: 300; /* Light font weight */
 }
 
+/* Additional styling for the footer */
 footer {
-  height: 400px; /* Increase footer height */
+    height: 400px; /* Height of the footer for spacing */
 }
