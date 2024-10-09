@@ -22,13 +22,10 @@ header {
 }
 
 /* For the hero section */
+
 .hero {
-    height: 100vh; /* Full viewport height */
-    display: flex; /* Flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    padding: 20px; /* Add padding for spacing */
-    margin-bottom: 20px; /* Space below the hero */
+    height: auto; /* Adjust to fit content */
+    padding-top: 50px; /* Space from the top */
 }
 
 h1 {
@@ -40,11 +37,9 @@ h1 {
 
 /* Projects title */
 .projects-title {
+    font-family: Roboto; 
     font-size: 2rem; /* Make it bigger */
     text-align: left; /* Align left */
-    margin: 20px 0; /* Add margin for spacing */
-    color: rgba(255, 255, 255, 0.8); /* White color with some transparency */
-    position: relative; /* Change to relative positioning */
     left: 20px; /* Adjusted position */
     top: 20px; /* Adjusted position */
 }
