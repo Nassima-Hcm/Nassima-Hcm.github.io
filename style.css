@@ -35,7 +35,7 @@ header {
 h1 {
     font-size: 3rem; /* Adjust size of text */
     text-transform: uppercase;
-    margin-top: 50px; 
+    margin-top: 100px; 
     text-align: center; /* Center the title */
     color: white;
 }
@@ -54,15 +54,11 @@ h1 {
   padding: 0 20px;
 }
 .projects-title {
-    font-size: 4rem; /* Make it bigger */
+    font-size: 2rem; /* Make it bigger */
     text-align: left; /* Align left */
-    color: rgba(255, 255, 255, 0.7); /* White color with 70% opacity for transparency */
     position: absolute; /* Position it absolutely */
     left: 20px; /* Distance from the left side */
     top: 200px; /* Distance from the top - adjust this value */
-    transform: rotate(-90deg); /* Rotate to make it vertical */
-    transform-origin: left bottom; /* Set the point of rotation */
-    white-space: nowrap; /* Prevent wrapping of the text */
 }
 
 .project {
