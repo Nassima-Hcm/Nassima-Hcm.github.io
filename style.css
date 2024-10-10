@@ -28,7 +28,7 @@ header {
 
 /* For the hero section */
 .hero {
-    height: 75vh; /* Full viewport height */
+    height: 70vh; /* Full viewport height */
     display: flex; /* Flexbox for centering */
     justify-content: center; /* Center horizontally */
     margin-top: 300px;
