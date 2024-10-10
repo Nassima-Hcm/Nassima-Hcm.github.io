@@ -4,11 +4,17 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%; /* Ensures the body and html cover the entire height of the viewport */
+}
+
 body {
     font-family: 'Roboto', sans-serif; 
     background: url('background.jpg') no-repeat top center fixed; 
     background-size: cover;
     overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
     margin: 0; /* Reset body margins */
     padding: 0;
 }
@@ -97,5 +103,6 @@ h1 {
 
 /* Additional styling for the footer */
 footer {
-    height: 400px; /* Height of the footer for spacing */
+    height: 400px; 
+    margin-top: auto;
 }
