@@ -28,10 +28,12 @@ header {
 
 /* For the hero section */
 .hero {
-    height: 100vh; /* Full viewport height */
+    height: auto; /* Full viewport height */
     display: flex; /* Flexbox for centering */
     justify-content: center; /* Center horizontally */
     margin-top: 300px;
+    padding-top: 50px;
+    margin-bottom: 20px; 
 }
 
 h1 {
@@ -49,6 +51,11 @@ h1 {
     position: relative; 
     margin-left: 350px;
     border-bottom: 0.5px solid white;  
+    margin-top: 0px;
+}
+
+#projects {
+    padding-top: 0px; /* Reduce or remove top padding */
 }
 
 .project-grid {
