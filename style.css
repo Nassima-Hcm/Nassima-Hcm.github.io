@@ -71,7 +71,7 @@ h1 {
 }
 
 .project img {
-    width: 100%;
+    width: 120%;
     height: 300px; /* Set a fixed height for uniformity */
     object-fit: cover;
     margin-bottom: 30px;
