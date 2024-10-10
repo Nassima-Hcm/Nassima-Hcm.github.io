@@ -47,7 +47,7 @@ h1 {
     font-family: 'Roboto', sans-serif; 
     font-size: 2rem; 
     position: relative; 
-    margin-top: 50px;
+    
     left: 50px;
     border-bottom: 0.5px solid white;  
 }
@@ -58,7 +58,8 @@ h1 {
     gap: 30px;
     margin: 0 auto; 
     max-width: 1000px;
-    padding: 20 20px;
+    margin-top: 50px;
+    padding: 0 20px;
 }
 
 /* Project styling */
