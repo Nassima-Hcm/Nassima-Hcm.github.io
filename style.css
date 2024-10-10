@@ -20,7 +20,7 @@ header {
 /* For the logo */
 .logo img {
     width: 150px; 
-    margin-left: 120px; 
+    margin-left: 110px; 
 }
 
 /* For the hero section */
@@ -28,7 +28,6 @@ header {
     height: 100vh; /* Full viewport height */
     display: flex; /* Flexbox for centering */
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
     padding: 20px; /* Add padding for spacing */
     margin-bottom: 20px; /* Space below the hero */
 }
@@ -47,11 +46,11 @@ h1 {
     font-size: 2rem; 
     position: relative; 
     text-align: left; 
-    margin: 30px; 
-    left: 240px; 
     margin-top: 50px;
-    border-bottom: 1px solid white; /* Thin line under the title */
-    padding-bottom: 10px; /* Space between the title and the line */
+    margin: 20px 0; 
+    border-bottom: 0.5px solid white;
+    padding-bottom: 10px;
+    left: 30px;
 }
 
 /* Project grid styling */
