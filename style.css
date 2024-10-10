@@ -31,7 +31,7 @@ header {
     height: 100vh; /* Full viewport height */
     display: flex; /* Flexbox for centering */
     justify-content: center; /* Center horizontally */
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 h1 {
