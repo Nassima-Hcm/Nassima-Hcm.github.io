@@ -47,9 +47,9 @@ h1 {
     font-family: 'Roboto', sans-serif; 
     font-size: 2rem; 
     position: relative; 
-    margin-left: 360px;
+    margin-left: 370px;
     border-bottom: 0.5px solid white;  
-    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 #projects {
