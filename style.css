@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    padding: 20px; /* Add padding for header */
+    padding: 20px; 
 }
 
 /* For the logo */
@@ -47,7 +47,7 @@ h1 {
     font-family: 'Roboto', sans-serif; 
     font-size: 2rem; 
     position: relative; 
-    margin-left: 400px;
+    margin-left: 350px;
     border-bottom: 0.5px solid white;  
 }
 
@@ -57,7 +57,6 @@ h1 {
     gap: 30px;
     margin: 0 auto; 
     max-width: 1000px;
-    margin-top: 100px;
     padding: 0 20px;
 }
 
