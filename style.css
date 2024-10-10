@@ -12,6 +12,7 @@ body {
     font-family: 'Roboto', sans-serif; 
     background: url('background.jpg') no-repeat center center; 
     background-size: cover;
+    background-attachment: fixed; 
     overflow-x: hidden; 
     display: flex;
     flex-direction: column;
