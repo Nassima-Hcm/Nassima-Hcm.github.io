@@ -54,6 +54,11 @@ h1 {
     margin-bottom: 150px;
 }
 
+.project-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Change color to white */
+}
+
 #projects {
     padding-top: 0px; /* Reduce or remove top padding */
 }
