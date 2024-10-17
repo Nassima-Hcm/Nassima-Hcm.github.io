@@ -118,6 +118,8 @@ h2 {
 #project-1 {
     padding: 20px;
     margin: 20px 0;
+    max-width: 800px; 
+    text-align: center; 
 }
 
 #project-1 h3 {
