@@ -111,10 +111,6 @@ footer {
     padding: 15px;
 }
 
-h2 {
-    font-size: 2rem;
-}
-
 #project-1 {
     padding: 20px;
     margin: 20px 0;
@@ -123,7 +119,8 @@ h2 {
 }
 
 #project-1 h3 {
-    margin-top: 20px; /* Space above section titles */
+    margin-top: 20px;/* Space above section titles */
+    font-size: 20px;
 }
 
 #project-1 p, #project-1 ul {
