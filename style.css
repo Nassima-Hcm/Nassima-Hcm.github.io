@@ -111,25 +111,5 @@ footer {
     padding: 15px;
 }
 
-#project-1 {
-    padding: 20px;
-    margin: 20px 0;
-    max-width: 800px; 
-    text-align: center; 
-}
 
-h2 {
-    margin-top: 20px;/* Space above section titles */
-    font-size: 40px;
-    text-align: center; 
-}
-
-#project-1 h3 {
-    margin-top: 20px;/* Space above section titles */
-    font-size: 24px;
-}
-
-#project-1 p, #project-1 ul {
-    margin-bottom: 15px; /* Space below paragraphs and lists */
-}
 
