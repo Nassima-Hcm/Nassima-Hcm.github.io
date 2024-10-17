@@ -49,10 +49,11 @@
         
         <h3>Goal</h3>
         <p>The primary goal of this analysis is to identify patterns in claims, and provide actionable insights that insurance companies can use to optimize their operations.</p>
-        
+
         <h3>Data</h3>
-        <p>We will be working on the “Claims Data” table from the following Insurance Claims Fraud Dataset from Kaggle.</p>
+        <p>We will be working on the “Claims Data” table from the following <a href=https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=insurance_data.csv>Insurance Claims Fraud Dataset</a> from Kaggle.</p>
         <img src="tableextract.png" alt="Claims Data Table">
+        <p>This dataset includes insurance transaction data, including transaction dates, customer and policy details, insurance types, premium amounts, and claims amounts.</p>
         
         <h3>I - Exploratory Data Analysis (EDA)</h3>
         <p>We will begin by loading the dataset and examining its structure to understand the variables available for analysis. This initial review will help us identify any missing values, data types, and potential inconsistencies.</p>
@@ -64,24 +65,35 @@
         <p>Now that we have a clean dataset, we want to get a sense of the data and identify trends that could be relevant to our analysis.</p>
         <p>First of all, we want to identify the basic statistical properties of our claims and premium amounts in order to understand the central tendencies and variability within the dataset. Let's calculate the descriptive statistics (mean, median, frequency…) for claims and premium amounts.</p>
         <img src="table1.png" alt="Descriptive Statistics Table">
+        <p>Between June 2020 and June 2021, there were 10,000 claims, with claim amounts ranging from $100 to $100,000. The average claim amount was $16,564, and the total sum of all claims exceeded $165 million.<p>
         
         <h3>Distribution of Claim Amounts</h3>
         <p>Next, we want to analyze the distribution of claim amounts to reveal information about typical claim sizes and identify any unusual values.</p>
         <img src="graph1.png" alt="Distribution of Claim Amounts">
-        
+        <p>This histogram illustrates the distribution of claims, showing how many claims fall into various ranges. We can see that most claims fall within the range “under $5000”, while there are notable outliers in the higher range. These outliers represent claims that exceed the typical range, indicating high-cost claims that may require further investigation.<p>
+
         <h3>Identify Patterns in Claims</h3>
         <p>To further inform our analysis, we want to identify key patterns that could help in risk management strategies.</p>
         <p>Let’s examine trends in claims over time to understand seasonality and identify periods of high claim activity. We will group claims by month and year to see how they fluctuate.</p>
         <img src="graph2.png" alt="Trends in Claims Over Time">
+        <p>We observe a spike in claims at the end of the year, likely due to factors associated with celebrations, such as increased travel and holiday gatherings that may lead to accidents or incidents.<p>
         
         <h3>Claims by Insurance Type</h3>
         <p>We also want to understand which types of insurance have the highest claims to help in risk assessment. Let's aggregate claim amounts by insurance type.</p>
         <img src="graph3.png" alt="Claims by Insurance Type">
+        <p>According to this bar chart, we can see that the life insurance type has the highest average claim amount of $91 million, indicating a higher risk of claims associated with this type of insurance.<p>
         
         <h3>Correlation Analysis</h3>
         <p>Finally, we want to visualize the relationships between premium amounts and claim amounts. This will help us determine if there’s a relationship between the amount paid in premiums and the amount claimed.</p>
         <img src="graph4.png" alt="Correlation Analysis">
-        
+        <p>When visualizing the relationship through a scatter plot, we observe a "staircase" pattern:
+        Low-premium customers exhibit a broad range of claim amounts, from very small to relatively high claims.
+        Intermediate-premium customers show a moderate range of claims.
+        High-premium customers tend to have more consistent and smaller claims, potentially indicating a difference in behavior or risk profile.
+        To confirm these interpretations, we can calculate the correlation coefficient which  indicates how strongly two variables are related. The correlation coefficient for premium amounts and claim amounts is 0.10 which confirms a very weak relationship between the two variables.
+        This pattern could suggest that higher-premium customers may be more cautious or have fewer claimable incidents, whereas lower-premium customers have more variable circumstances, leading to a wider range of claims.
+        <p>
+            
         <h3>Conclusion and Recommendations</h3>
         <p>This analysis highlights key patterns in insurance claims that can enhance risk management and pricing strategies for insurers. Our findings revealed several insights:</p>
         <ul>
