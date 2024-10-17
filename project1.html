@@ -70,32 +70,24 @@
         <h2>Analyzing Insurance Claims Patterns</h2>
         
         <h4>Context</h4>
-        <p>Insurance companies handle a significant amount of transaction data from claims. Understanding patterns in these claims can help companies manage risks, optimize pricing, and detect fraudulent claims.</p>
-        
-        <h4>Problem</h4>
-        <p>How can insurance companies identify key patterns in claims data to better predict high-cost claims and improve risk management?</p>
-        
-        <h4>Goal</h4>
-        <p>The primary goal of this analysis is to identify patterns in claims, and provide actionable insights that insurance companies can use to optimize their operations.</p>
-
-        <h4>Data</h4>
+        <p>Insurance companies handle a significant amount of transaction data from claims. Understanding patterns in these claims can help companies manage risks, optimize pricing, and detect fraudulent claims.
+        How can insurance companies identify key patterns in claims data to better predict high-cost claims and improve risk management?
+        The primary goal of this analysis is to identify patterns in claims, and provide actionable insights that insurance companies can use to optimize their operations.</p>
         <p>We will be working on the “Claims Data” table from the following <a href="https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=insurance_data.csv" style="color: white; text-decoration: underline;">Insurance Claims Fraud Dataset</a> from Kaggle.</p>
         <img src="tableextract.png" alt="Claims Data Table">
         <p>This dataset includes insurance transaction data, including transaction dates, customer and policy details, insurance types, premium amounts, and claims amounts.</p>
         
         <h3>Exploratory Data Analysis (EDA)</h3>
         <p>We will begin by loading the dataset and examining its structure to understand the variables available for analysis. This initial review will help us identify any missing values, data types, and potential inconsistencies.</p>
-        
-        <h3>Data Cleansing</h3>
         <p>Before diving into the analysis, we must ensure that our data is clean and ready for exploration as missing data can skew our results and lead to incorrect conclusions.</p>
         
         <h3>Descriptive Statistics</h3>
         <p>Now that we have a clean dataset, we want to get a sense of the data and identify trends that could be relevant to our analysis.</p>
-        <br>First of all, we want to identify the basic statistical properties of our claims and premium amounts in order to understand the central tendencies and variability within the dataset.</br>
-        <br>Let's calculate the descriptive statistics (mean, median, frequency…) for claims and premium amounts:</br>
+        <ul><br>First of all, we want to identify the basic statistical properties of our claims and premium amounts in order to understand the central tendencies and variability within the dataset.</br>
+        <br>Let's calculate the descriptive statistics (mean, median, frequency…) for claims and premium amounts:</br></ul>
         <img src="table1.png" alt="Descriptive Statistics Table">
         <p>Between June 2020 and June 2021, there were 10,000 claims, with claim amounts ranging from $100 to $100,000.</p>
-        <br>The average claim amount was $16,564, and the total sum of all claims exceeded $165 million.</br>
+        <ul><br>The average claim amount was $16,564, and the total sum of all claims exceeded $165 million.</br></ul>
         
         <h3>Distribution of Claim Amounts</h3>
         <p>Next, we want to analyze the distribution of claim amounts to reveal information about typical claim sizes and identify any unusual values.</p>
@@ -104,7 +96,7 @@
 
         <h3>Identify Patterns in Claims</h3>
         <p>To further inform our analysis, we want to identify key patterns that could help in risk management strategies.</p>
-        <br>Let’s examine trends in claims over time to understand seasonality and identify periods of high claim activity. We will group claims by month and year to see how they fluctuate.</br>
+        <ul><br>Let’s examine trends in claims over time to understand seasonality and identify periods of high claim activity. We will group claims by month and year to see how they fluctuate.</br></ul>
         <img src="graph2.png" alt="Trends in Claims Over Time">
         <p>We observe a spike in claims at the end of the year, likely due to factors associated with celebrations, such as increased travel and holiday gatherings that may lead to accidents or incidents.</p>
         
