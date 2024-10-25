@@ -31,7 +31,7 @@
             font-size: 40px;
         }
         img {
-            max-width: 100%;
+            max-width: 60%;
             height: auto;
             margin-bottom: 100px;
             margin-top: 100px;
@@ -69,12 +69,12 @@
         <p>How do key factors of development impact life expectancy?</p>
         <p>The primary goal of this analysis is to understand which development factors most strongly influence life expectancy and whether modern features, like increased urbanization, are always beneficial to public health. We aim to provide insights that can inform development policies and improve population health outcomes.</p>
         <p>We will use the Country Comparison Dataset from Kaggle, which includes data between 2000 and 2023 from six major countries: USA, Russia, Canada, China, India, and Australia.</p>
-        <img src="tableextract2.png" alt="Table Extract" style="width:100%; max-width:600px;">
+        <img src="tableextract2.png" alt="Table Extract">
         <p>This dataset contains key factors such as healthcare expenditure per capita, urbanization rates, GDP, doctor-to-patient ratios, and life expectancy.</p>
 
         <h3>Descriptive Statistics</h3>
         <p>Once the data was loaded and cleaned, we calculated descriptive statistics for key variables to identify basic trends in our data. Let’s calculate the average healthcare expenditure, life expectancy, and urbanization rates over 20 years (2000 to 2023) for each country.</p>
-        <img src="tablestats.png" alt="Descriptive Statistics" style="width:100%; max-width:600px;">
+        <img src="tablestats.png" alt="Descriptive Statistics">
         <p>From this table, we can see a clear relationship between life expectancy, healthcare expenditure, and urbanization rates. Australia has the highest life expectancy at 83 years, an urbanization rate of 86%, and on average, Australians spend about $5,000 per year per person on healthcare.</p>
         <p>India and China have populations about four times that of the USA and 50 times that of Australia. India has the lowest life expectancy at 69 years, a low urbanization rate of 35%, and minimal healthcare expenditure of $73 per year per person.</p>
         <p>China, with a comparable life expectancy of 77 years and a lower urbanization rate of 60%, has a healthcare expenditure of only $447 per inhabitant and yet, a much larger population of 1.4 billion.</p>
@@ -90,35 +90,35 @@
         <h3>1. Healthcare Access</h3>
         <p>To begin, we will analyze the relationship between population size and healthcare access for the six countries. Previous statistics showed that countries with higher healthcare expenditure per capita experience better life expectancy. Additionally, countries with larger populations tend to allocate lower healthcare spending per person, which may indicate a strain on healthcare resources.</p>
         <p>Let’s make a bar chart highlighting each country’s GDP and healthcare expenditure per capita.</p>
-        <img src="barchartGDP.png" alt="GDP and Healthcare Expenditure" style="width:100%; max-width:600px;">
+        <img src="barchartGDP.png" alt="GDP and Healthcare Expenditure">
         <p>This chart shows that countries with higher GDP also have higher healthcare expenditure per capita, which, as shown by previous statistics, correlates with higher life expectancy.</p>
         <p>To further understand healthcare access, we’ll look at the distribution of doctors relative to population size. The following map illustrates the availability of doctors per capita across the six countries, offering a view of healthcare accessibility relative to population density.</p>
-        <img src="map1.png" alt="Doctors per Capita" style="width:100%; max-width:600px;">
+        <img src="map1.png" alt="Doctors per Capita">
         <p>The map reveals that in densely populated regions like India and China, there are fewer doctors available per capita.</p>
         <p>To investigate whether education levels influence healthcare spending, we created a bar chart displaying literacy rates alongside healthcare expenditure per capita for each country.</p>
-        <img src="barchart1.png" alt="Literacy Rates and Healthcare Expenditure" style="width:100%; max-width:600px;">
+        <img src="barchart1.png" alt="Literacy Rates and Healthcare Expenditure">
         <p>The chart supports that countries with higher literacy rates invest more in healthcare. However, China stands out with a high literacy rate (96%) but relatively low healthcare expenditure per inhabitant ($447), indicating that other factors may also influence healthcare spending.</p>
 
         <h3>2. Urbanization</h3>
         <p>Urbanization can have mixed effects on health outcomes. On one hand, urban areas often provide better access to healthcare and modern services; on the other, they may expose people to pollution and lifestyle-related health issues. Here, we will investigate how urbanization has evolved over the past two decades in each country and its potential impact on life expectancy.</p>
         <p>To begin, let’s look at the evolution of urbanization rates in each country over the last 20 years.</p>
-        <img src="linegraph1.png" alt="Urbanization Rates Over Time" style="width:100%; max-width:600px;">
+        <img src="linegraph1.png" alt="Urbanization Rates Over Time">
         <p>From this graph, we can see that urbanization rates have not evolved much within the past 20 years for any of these countries. India has the lowest urbanization rate, which correlates with harder access to healthcare.</p>
         <p>The graph indicates that urbanization rates have remained relatively stable across the six countries. India shows the lowest urbanization rate, which aligns with challenges in healthcare access. This could suggest that rural populations may face barriers to medical services and modern infrastructure.</p>
         <p>Next, let’s examine the distribution of agricultural land to see how it might relate to urbanization and health outcomes.</p>
-        <img src="map2.png" alt="Agricultural Land Distribution" style="width:100%; max-width:600px;">
+        <img src="map2.png" alt="Agricultural Land Distribution">
         <p>The map shows that countries with higher life expectancies tend to have lower proportions of agricultural land. This may indicate that as urbanization increases, agricultural land use decreases, potentially affecting access to fresh, local food sources—a factor that could impact long-term health.</p>
 
         <h3>3. Modern Features and Health</h3>
         <p>Modern features can improve healthcare access and communication but might also introduce health risks related to sedentary lifestyles and pollution. We will assess how access to modern infrastructure correlates with life expectancy.</p>
         <p>Internet is part of the modern features of our century. Let’s analyze the relationship between internet penetration and life expectancy for the six countries.</p>
         <p>Roads are also a modern facility. We’ll examine whether a country’s road network length has any connection to life expectancy, as infrastructure can influence healthcare access and quality of life.</p>
-        <img src="plot1.png" alt="Internet Penetration and Life Expectancy" style="width:100%; max-width:600px;">
+        <img src="plot1.png" alt="Internet Penetration and Life Expectancy">
         <p>Although there is no clear linear relationship, higher internet penetration seems to correlate with better life expectancy, suggesting that access to information and connectivity may contribute to improved health outcomes.</p>
 
         <p>As for the roads, while no direct relationship appears, certain clusters show that extensive road networks can correlate with lower life expectancy, possibly tied to urban pollution or CO₂ emissions.</p>
         <p>To assess environmental impact by country, let’s look at average CO₂ emissions per country.</p>
-        <img src="plot3.png" alt="CO2 Emissions by Country" style="width:100%; max-width:600px;">
+        <img src="plot3.png" alt="CO2 Emissions by Country">
         <p>China leads in CO₂ emissions, but its life expectancy is not the lowest. Similarly, the USA has high emissions while maintaining a higher life expectancy. In contrast, Canada and Australia have low emissions and high life expectancies, suggesting a potential correlation between lower emissions and better health outcomes.</p>
 
         <h2>Conclusion and Recommendations</h2>
