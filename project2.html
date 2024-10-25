@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0f1b22;
+            color: white;
+        }
+        #project-2 {
+            padding: 20px;
+            margin: 20px;
+        }
+        #project-2 h3 {
+            margin-left: 110px;
+            margin-top: 100px;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        #project-2 p, #project-2 ul {
+            margin-left: 110px;
+            margin-bottom: 30px;
+        }
+        #project-2 h2 {
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+            font-size: 40px;
+        }
+        img {
+            max-width: 60%;
+            height: auto;
+            margin-bottom: 100px;
+            margin-top: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .logo img {
+            width: 150px;
+            margin-left: 120px;
+            margin-top: 0px;
+        }
+        .project-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <title>The Impact of Development on Life Expectancy</title>
+</head>
+
+<body>
+<header>
+    <a href="index.html" class="logo">
+        <img src="logo.png" alt="Nassima Hachemaoui Logo">
+    </a>
+</header>
+
+<section id="project-2">
+    <h2>The Impact of Development on Life Expectancy</h2>
+
+    <h3>Context</h3>
+    <p>As countries develop, various factors like healthcare access, urbanization, and modern infrastructure have profound impacts on the population's quality of life. One of the key indicators of development is life expectancy, but the relationship between development factors and life expectancy is not always straightforward. How do key factors of development impact life expectancy? The primary goal of this analysis is to understand which development factors most strongly influence life expectancy and whether modern features, like increased urbanization, are always beneficial to public health. We aim to provide insights that can inform development policies and improve population health outcomes.</p>
+    <p>We will use the Country Comparison Dataset from Kaggle which includes data between 2000 and 2023 from 6 big countries: USA, Russia, Canada, China, India, and Australia.</p>
+    <img src="tableextract2.png" alt="Country Comparison Dataset">
+    <p>This dataset contains key factors such as healthcare expenditure per capita, urbanization rates, GDP, doctor-to-patient ratios, and life expectancy.</p>
+
+    <h3>Descriptive Statistics</h3>
+    <p>Once the data was loaded and cleaned, we calculated descriptive statistics for key variables to identify basic trends in our data. Let’s calculate the average healthcare expenditure, life expectancy, and urbanization rates over 20 years (2000 to 2023) for each country.</p>
+    <img src="tablestats.png" alt="Descriptive Statistics Table">
+    <p>From this table, we can see a clear relationship between life expectancy, healthcare expenditure, and urbanization rates. Australia has the highest life expectancy at 83 years, an urbanization rate of 86%, and on average, Australians spend about $5,000 per year per person on healthcare.</p>
+    <p>India and China have populations about four times that of the USA and 50 times that of Australia. India has the lowest life expectancy at 69 years, a low urbanization rate of 35%, and minimal healthcare expenditure of $73 per year per person.</p>
+    <p>China, with a comparable life expectancy of 77 years and a lower urbanization rate of 60%, has a healthcare expenditure of only $447 per inhabitant and yet, a much larger population of 1.4 billion.</p>
+
+    <h3>Exploratory Data Analysis</h3>
+    <p>Key aspects of development, as indicated by the Human Development Index (HDI), include access to healthcare, urbanization rates (which relate to agriculture), and access to modern amenities. Therefore, we will structure our analysis into three main sections:</p>
+    <ol>
+        <li>Healthcare access</li>
+        <li>Urbanization rates</li>
+        <li>Access to modern amenities</li>
+    </ol>
+
+    <h3>1. Healthcare Access</h3>
+    <p>To begin, we will analyze the relationship between population size and healthcare access for the six countries. Previous statistics showed that countries with higher healthcare expenditure per capita experience better life expectancy. Additionally, countries with larger populations tend to allocate lower healthcare spending per person, which may indicate a strain on healthcare resources.</p>
+    <p>Let’s make a bar chart highlighting each country’s GDP and healthcare expenditure per capita.</p>
+    <img src="barchartGDP.png" alt="GDP and Healthcare Expenditure Bar Chart">
+    <p>This chart shows that countries with higher GDP also have higher healthcare expenditure per capita, which, as shown by previous statistics, correlates with higher life expectancy.</p>
+    
+    <p>To further understand healthcare access, we’ll look at the distribution of doctors relative to population size. The following map illustrates the availability of doctors per capita across the six countries, offering a view of healthcare accessibility relative to population density.</p>
+    <img src="map1.png" alt="Doctors per Capita Map">
+    <p>The map reveals that in densely populated regions like India and China, there are fewer doctors available per capita.</p>
+
+    <p>To investigate whether education levels influence healthcare spending, we created a bar chart displaying literacy rates alongside healthcare expenditure per capita for each country.</p>
+    <img src="barchart1.png" alt="Literacy Rate and Healthcare Expenditure Bar Chart">
+    <p>The chart supports that countries with higher literacy rates invest more in healthcare. However, China stands out with a high literacy rate (96%) but relatively low healthcare expenditure per inhabitant ($447), indicating that other factors may also influence healthcare spending.</p>
+
+    <h3>2. Urbanization</h3>
+    <p>Urbanization can have mixed effects on health outcomes. On one hand, urban areas often provide better access to healthcare and modern services; on the other, they may expose people to pollution and lifestyle-related health issues. Here, we will investigate how urbanization has evolved over the past two decades in each country and its potential impact on life expectancy.</p>
+    <p>To begin, let’s look at the evolution of urbanization rates in each country over the last 20 years.</p>
+    <img src="linegraph1.png" alt="Urbanization Rates Over 20 Years">
+    <p>From this graph, we can see that urbanization rates have not evolved much within the past 20 years for any of these countries. India has the lowest urbanization rate, which correlates with harder access to healthcare.</p>
+</section>
+
+<footer>
+    <p style="text-align: center; color: white; font-size: 0.9rem; margin-top: 400px;">
+    © 2024 Nassima Hachemaoui. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
