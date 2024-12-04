@@ -39,6 +39,9 @@ h1 {
     font-weight: 300; 
     text-align: center; 
     color: white;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 150px;
 }
 
 .projects-title {
