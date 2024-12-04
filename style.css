@@ -34,7 +34,7 @@ body {
     margin-top: 300px;
 }
 
-h1 {
+.hero p {
     font-size: 30px; 
     text-align: center; 
     color: white;
