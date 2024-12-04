@@ -7,12 +7,15 @@
 body {
     font-family: 'Roboto', sans-serif; 
     background-color: #0f1b22;
+    background-size: cover;
+    background-attachment: fixed; 
     overflow-x: hidden; 
     display: flex;
     flex-direction: column;
     margin: 0; /* Reset body margins */
-    padding: 100px;
+    padding: 0;
 }
+
 
 /* For the logo */
 .logo img {
