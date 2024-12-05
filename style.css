@@ -58,7 +58,13 @@ body {
 
 .project-link {
     text-decoration: none; 
-    color:  black; 
+  color: inherit; /* Keep the text color same as defined in title and description styles */
+  display: block; /* Make the link cover the entire content inside */
+}
+
+.project-link:hover {
+  cursor: pointer; /* Change cursor to indicate interactivity */
+  text-decoration: none; /* Ensure underline does not appear on hover */
 }
 
 #projects {
