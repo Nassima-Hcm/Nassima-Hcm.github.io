@@ -67,7 +67,7 @@
         <p>Insurance companies handle a significant amount of transaction data from claims. Understanding patterns in these claims can help companies manage risks, optimize pricing, and detect fraudulent claims.
         How can insurance companies identify key patterns in claims data to better predict high-cost claims and improve risk management?
         The primary goal of this analysis is to identify patterns in claims, and provide actionable insights that insurance companies can use to optimize their operations.</p>
-        <p>We will be working on the “Claims Data” table from the following <a href="https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=insurance_data.csv" style="color: white; text-decoration: underline;">Insurance Claims Fraud Dataset</a> from Kaggle.</p>
+        <p>We will be working on the “Claims Data” table from the following <a href="https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=insurance_data.csv" style="color: black; text-decoration: underline;">Insurance Claims Fraud Dataset</a> from Kaggle.</p>
         <img src="tableextract.png" alt="Claims Data Table">
         <p>This dataset includes insurance transaction data, including transaction dates, customer and policy details, insurance types, premium amounts, and claims amounts.</p>
         <p>Now that we have a clean dataset, we want to get a sense of the data and identify trends that could be relevant to our analysis.
@@ -79,11 +79,11 @@
         
         <h3>Distribution of Claim Amounts</h3>
         <p>Next, we want to analyze the distribution of claim amounts to reveal information about typical claim sizes and identify any unusual values.</p>
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div class="tableauWrapper" style="max-width: 1200px; margin: 0 auto;">
-    <div class='tableauPlaceholder' id='viz1733400388594' style='position: relative; width: 800px; height: 600px;'>
-      <noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cl&#47;claims_17289855031190&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
-      <object class='tableauViz' style='display:none;'>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div class="tableauWrapper" style="max-width: 1200px; margin: 0 auto;">
+        <div class='tableauPlaceholder' id='viz1733400388594' style='position: relative; width: 800px; height: 600px;'>
+        <noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cl&#47;claims_17289855031190&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+        <object class='tableauViz' style='display:none;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
         <param name='embed_code_version' value='3' />
         <param name='site_root' value='' />
@@ -97,37 +97,70 @@
         <param name='display_overlay' value='yes' />
         <param name='display_count' value='yes' />
         <param name='language' value='en-US' />
-      </object>
-    </div>
-  </div>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1733400388594');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width = "1120px";
-  vizElement.style.height = "860px";
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+        </object>
+        </div>
+        </div>
+        </div>
+        <script type='text/javascript'>
+        var divElement = document.getElementById('viz1733400388594');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = "1120px";
+        vizElement.style.height = "860px";
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
         
-
-
-
-
-
-
-
-
-
-
 
         <p>This histogram illustrates the distribution of claims, showing how many claims fall into various ranges. We can see that most claims fall within the range “under $5000”, while there are notable outliers in the higher range. These outliers represent claims that exceed the typical range, indicating high-cost claims that may require further investigation.</p>
 
         <h3>Identify Patterns in Claims</h3>
         <p>To further inform our analysis, we want to identify key patterns that could help in risk management strategies.
          Let’s examine trends in claims over time to understand seasonality and identify periods of high claim activity. We will group claims by month and year to see how they fluctuate.</p>
-        <img src="graph2.png" alt="Trends in Claims Over Time">
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div class="tableauWrapper" style="max-width: 1200px; margin: 0 auto;">
+        <div class='tableauPlaceholder' id='viz1733404998448' style='position: relative; width: 1120px; height: 840px;'>
+        <noscript>
+        <a href='#'>
+        <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nu&#47;numberofclaims&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+        </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='numberofclaims&#47;Dashboard2' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nu&#47;numberofclaims&#47;Dashboard2&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+        <param name='filter' value='publish=yes' />
+        </object>
+        </div>
+        </div>
+        </div>
+
+        <script type='text/javascript'>
+        var divElement = document.getElementById('viz1733404998448');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = "1120px";
+        vizElement.style.height = "840px";
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+
+
+
+
+
+
+        
         <p>We observe a spike in claims at the end of the year, likely due to factors associated with celebrations, such as increased travel and holiday gatherings that may lead to accidents or incidents.</p>
         
         <h3>Claims by Insurance Type</h3>
