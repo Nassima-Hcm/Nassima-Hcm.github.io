@@ -20,7 +20,7 @@ body {
 /* For the logo */
 .logo img {
     width: 150px; 
-    margin-left: 210px; 
+    margin-left: 120px; 
     margin-top: 0px;
 }
 
@@ -32,8 +32,8 @@ body {
 .hero p {
     font-family: 'Roboto', sans-serif;
     color: black;
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-bottom: 30px;
     font-size: 18px;
 }
@@ -51,7 +51,7 @@ body {
     font-family: 'Roboto', sans-serif; 
     font-size: 2rem; 
     position: relative; 
-    margin-left: 210px;
+    margin-left: 120px;
     border-bottom: 0.5px solid black;  
     margin-bottom: 150px;
 }
@@ -69,7 +69,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
     gap: 30px;
-    margin-left: 210px; 
+    margin-left: 120px; 
     max-width: 1000px;
     padding: 0 20px;
 }
