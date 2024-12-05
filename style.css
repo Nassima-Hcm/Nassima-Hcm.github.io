@@ -38,6 +38,13 @@ body {
     font-size: 18px;
 }
 
+.tableauPlaceholder {
+  background-color: transparent !important; /* Removes background color */
+  border: none !important; /* Removes border if any */
+  padding: 0 !important; /* Removes padding */
+}
+
+
 .projects-title {
     color:  black;
     font-weight: 400;
