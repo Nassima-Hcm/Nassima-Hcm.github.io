@@ -32,7 +32,8 @@ body {
 .hero p {
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin-left: 110px;
+    margin-left: 210px;
+    margin-right: 210px;
     margin-bottom: 30px;
     font-size: 18px;
 }
