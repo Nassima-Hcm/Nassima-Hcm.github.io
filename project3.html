@@ -10,22 +10,25 @@
             color: black;
         }
 
-        #project-2 h3 {
+        #project-3 h3 {
             margin-left: 120px;
             margin-top: 100px;
             margin-bottom: 30px;
             font-size: 24px;
         }
-        #project-2 p, #project-2 ul {
+
+        #project-3 p, #project-3 ul {
             margin-left: 120px;
             margin-bottom: 30px;
         }
-        #project-2 h2 {
+
+        #project-3 h2 {
             text-align: center;
             margin-top: 200px;
             margin-bottom: 200px;
             font-size: 40px;
         }
+
         img {
             max-width: 80%;
             height: auto;
@@ -35,15 +38,43 @@
             margin-left: auto;
             margin-right: auto;
         }
+
         .logo img {
             width: 150px;
             margin-left: 120px;
             margin-top: 0px;
         }
+
         .project-wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        .tableauWrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            color: black;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            #project-3 h3,
+            #project-3 p {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            .logo img {
+                margin-left: 20px;
+            }
         }
     </style>
     <title>The Impact of Development on Life Expectancy</title>
@@ -56,18 +87,18 @@
     </a>
 </header>
 
- 
-        <section id="project-2">
-        <h2>Where People Move To : Largest Migration Visualization</h2>
-            
-        <h3>Context</h3>
-        <p>This project offers a comparative analysis of global migration trends over the decades, emphasizing the key migration patterns driven by economic opportunities, political instability, and policy changes.​​​​​​​</p>
-        <p>Economic booms in countries like the United States have attracted millions of migrants, often creating noticeable immigration surges.</p>
-        <p>Conflict zones like Syria and Afghanistan have led to large outflows, resulting in refugee crises and mass migrations to neighboring regions and Europe.</p>
-        <p>Changes in immigration laws or global agreements, such as the European Union's expansion or the U.S. Immigration Reform Act of 1965, have influenced migration flows, making some countries more attractive for immigration and others less so.</p>
-        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <div class="tableauWrapper" style="max-width: 1420px; margin: 0 auto;">
-        <div class='tableauPlaceholder' id='viz1733421562317' style='position: relative; width: 1420px; height: 100vh;'>
+<section id="project-3">
+    <h2>Where People Move To: Largest Migration Visualization</h2>
+
+    <h3>Context</h3>
+    <p>This project offers a comparative analysis of global migration trends over the decades, emphasizing the key migration patterns driven by economic opportunities, political instability, and policy changes.</p>
+    <p>Economic booms in countries like the United States have attracted millions of migrants, often creating noticeable immigration surges.</p>
+    <p>Conflict zones like Syria and Afghanistan have led to large outflows, resulting in refugee crises and mass migrations to neighboring regions and Europe.</p>
+    <p>Changes in immigration laws or global agreements, such as the European Union's expansion or the U.S. Immigration Reform Act of 1965, have influenced migration flows, making some countries more attractive for immigration and others less so.</p>
+
+    <!-- Tableau Visualization -->
+    <div class="tableauWrapper">
+        <div class='tableauPlaceholder' id='viz1733421562317' style='position: relative; width: 100%; height: auto;'>
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 1' src='https://public.tableau.com/static/images/NE/NETMIGRATIONS/Dashboard1/1_rss.png' style='border: none;' />
@@ -90,26 +121,20 @@
             </object>
         </div>
     </div>
-</div>
+</section>
+
+<footer>
+    <p>© 2024 Nassima Hachemaoui. All rights reserved.</p>
+</footer>
+
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1733421562317');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width = "1420px";
-    vizElement.style.height = "4587px";
+    vizElement.style.width = "100%";
+    vizElement.style.height = "700px"; // Adjust as needed
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
- </section>
-
-    <footer>
-    <p style="text-align: center; color: black; font-size: 0.9rem;  margin-top: 400px;">
-    © 2024 Nassima Hachemaoui. All rights reserved.
-    </p>
-    </footer>
-    
 </body>
 </html>
-
-
-       
