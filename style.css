@@ -78,15 +78,6 @@ body {
     margin-bottom: 30px;
 }
 
-
-.project-number {
-    font-size: 2rem; 
-    font-family: Roboto; 
-    font-weight: 100; 
-    margin-bottom: 30px; /* Space between the number and image */
-    color: white; 
-}
-
 .project-title {
     font-size: 1.25rem; 
     font-weight: 400;
