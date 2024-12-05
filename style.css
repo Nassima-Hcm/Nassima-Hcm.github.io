@@ -24,14 +24,17 @@ body {
     margin-top: 0px;
 }
 
-.hero p {
+.hero {
     margin-top: 300px;
+}
+
+.hero p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
     margin-left: 110px;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .projects-title {
