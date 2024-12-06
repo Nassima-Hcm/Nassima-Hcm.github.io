@@ -89,15 +89,15 @@
 
     
 <!-- Tableau Visualization -->
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh; overflow: auto;">
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden;">
     <div class="tableauWrapper" style="width: 100%; max-width: 100%; margin: 0 auto;">
-        <div class='tableauPlaceholder' id='viz1733421562317' style='position: relative; width: 100%; height: auto;'>
+        <div class='tableauPlaceholder' id='viz1733421562317' style='position: relative; width: 100%; height: 0; padding-bottom: 56.25%;'>
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 1' src='https://public.tableau.com/static/images/NE/NETMIGRATIONS/Dashboard1/1_rss.png' style='border: none;' />
                 </a>
             </noscript>
-            <object class='tableauViz' style='display: none;'>
+            <object class='tableauViz' style='display: block; width: 100%; height: 100%;'>
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                 <param name='embed_code_version' value='3' />
                 <param name='site_root' value='' />
@@ -119,8 +119,6 @@
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1733421562317');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width = "100%";  // Adjust width to 100% of the container
-    vizElement.style.height = "auto"; // Auto adjust height to maintain aspect ratio
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
