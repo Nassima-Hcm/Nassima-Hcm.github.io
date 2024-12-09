@@ -73,14 +73,15 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adaptive grid */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
     gap: 30px;
-    margin: 0 auto; /* Center the grid */
-    padding: 0 20px; /* Space around the grid content */
-    margin-left: 120px;
-    margin-right: 120px;
-    max-width: 100%; /* Allow it to grow with the screen size */
-    width: 100%; /* Ensure it takes the full width of its container */
+    margin: 0 auto;
+    padding: 0 20px; 
+    max-width: calc(100% - 240px); 
+    width: calc(100% - 240px); 
+    margin-left: 120px; 
+    margin-right: 120px; 
+    box-sizing: border-box; 
 }
 
 
