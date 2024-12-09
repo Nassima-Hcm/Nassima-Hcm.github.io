@@ -73,12 +73,14 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adaptive grid */
     gap: 30px;
-    margin-left: 120px; 
-    max-width: 1200px;
-    padding: 0 20px;
+    margin: 0 auto; /* Center the grid */
+    padding: 0 20px; /* Space around the grid content */
+    max-width: 100%; /* Allow it to grow with the screen size */
+    width: 100%; /* Ensure it takes the full width of its container */
 }
+
 
 /* Project styling */
 .project {
