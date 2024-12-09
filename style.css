@@ -81,7 +81,7 @@ body {
     max-width: calc(100% - 240px); 
     width: calc(100% - 240px); 
     margin-left: 120px; 
-    margin-right: 120px; 
+    margin-right: 80px; 
     box-sizing: border-box; 
 }
 
